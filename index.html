@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lightsaber Instructable</title>
+    <meta name="description" content="Instructions for constructing an electrum lightsaber">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <link rel="stylesheet" href="css/master.css" type="/text/css" >
+  </head>
+
+  <body>
+    <h1>Electrum Lightsaber</h1>
+    <header>
+      <img src="assets/RepublicEmb.png" alt="" />
+      <nav>
+        <ul class="navs">
+          <li><a href="#Description">Description</a></li>
+          <li><a href="#Components">Components</a></li>
+          <li><a href="#Equipment">Equipment</a></li>
+          <li><a href="#Instructions">Instructions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <h2 id="Components" class="components-list">Components</h2>
+      <ul class="components-list">
+        <li>Kyber Crystal</li>
+        <li>Focusing Crystal</li>
+        <li>Emitter Fixture</li>
+        <li>Power Cell</li>
+        <li>Focusing Lens</li>
+        <li>Electrum Binding</li>
+        <li>Durasteel Cylinder</li>
+        <li>Emitter Switch</li>
+        <li>Output Inhibitor</li>
+        <li>Belt Clip</li>
+        <li>Emitter Shroud</li>
+        <li>Plasteel Grip</li>
+      </ul>
+    </aside>
+
+    <section>
+
+      <figure>
+        <img class="LargeImg" src="assets/saber_schematic.png" alt="Obi-Wan's Lightsaber" />
+        <figcaption>
+          <a href="http://starwars.wikia.com/wiki/Lightsaber">The legacy of the lightsaber</a>
+        </figcaption>
+      </figure>
+
+      <h2 id="Description">Description</h2>
+      <p class="description">
+        Lightsabers are the weapon of Jedi Knights, not as clumsy or random as a
+        blaster but an elegant weapon for a more civilized age.
+      </p>
+
+      <h2 id="Equipment">Equipment</h2>
+      <ul>
+        <li>High Temperature Kiln</li>
+        <li>Hydrospanner</li>
+        <li>Soldering Iron</li>
+        <li>Electroplating Bath</li>
+        <li>Suspension Grip</li>
+        <li>Pliers</li>
+        <li>Microwelder</li>
+      </ul>
+
+      <h2 id="Instructions">Instructions</h2>
+      <ol class="instructions">
+        <li>Tune focusing and kyber crystals inside the kiln, while using the Force
+        to find the correct frequency of the crystals. Allow the kiln to resolve
+        microstructures for 24 more standard hours.</li>
+        <li>During the curing process for the crystals, allow the electrum plating
+        to anneal in the electroplating bath.</li>
+        <li>Use soldering iron to bridge emitter fixtures and inhibitor, handling
+          connector terminals with pliers or utilizing the Force.</li>
+        <li>Prepare the hilt outer casing by fastening durasteel cylinder in the
+          suspension grip, while using the hydrospanner to merge the plasteel grip
+        and belt clip together.</li>
+        <li>Use the force to bring all of the components together.</li>
+      </ol>
+
+
+      <section id="reviews">
+        <form id="review-form" action="/reviews" method="post">
+          <h2>Review</h2>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+
+          <label for="rating">Rating</label>
+          5<input type="radio" name="rating" value="5" checked>
+          4<input type="radio" name="rating" value="4" >
+          3<input type="radio" name="rating" value="3" >
+          2<input type="radio" name="rating" value="2" >
+          1<input type="radio" name="rating" value="1" >
+
+          <label for="rank">Rank</label>
+          <select id="rank" name="rank">
+            <option value="Select Rank" disabled="true" selected="true">Select Rank</option>
+            <option value="Uninitiated">Uninitiated</option>
+            <option value="Youngling">Youngling</option>
+            <option value="Padawan">Padawan</option>
+            <option value="Jedi Knight">Jedi Knight</option>
+            <option value="Jedi Master">Jedi Master</option>
+            <option value="Council Member">Council Member</option>
+            <option value="Grand Master">Grand Master</option>
+          </select>
+
+          <label for="comments">Comments
+            <textarea name="comments" rows="8" cols="30"></textarea>
+          </label>
+
+          <input type="submit" value="Submit Review">
+
+        </form>
+      </section>
+    </section>
+    <footer>
+      <p>
+        <a href="http://starwars.wikia.com">Wookieepedia</a>
+      </p>
+    </footer>
+
+  </body>
+</html>
